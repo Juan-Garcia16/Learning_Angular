@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+h1 {
+    color: #09d;
+}
+
+a{
+    color: red;
+}
+
+.information{
+    display: block;
+    color: white;
+    background-color: #09d;
+    border: 0;
+}
+
+a:hover{
+    color: #09d;
+    outline: 3px solid red; /*funciona diferente al border, ya que no genera mas pixeles*/
+}
+
+a:active{
+    color: aquamarine;
+}
+
+.tesla{
+    width: 100%;
+}
